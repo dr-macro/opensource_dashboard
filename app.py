@@ -8,7 +8,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 #contain both header and boostrap 5.2
 utl.inject_custom_css()
 utl.navbar_component()
-
+#
 def navigation():
     """Navigation in the entry point of the app"""
     route = utl.get_current_route()
